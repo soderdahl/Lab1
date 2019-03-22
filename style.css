@@ -11,16 +11,26 @@ ul {
 }
 
 .menubar {
-    background-color:#FF0000 ;
-    text-align: end;     
-    
+    display: flex;
+    background-color:#FF0000 ;    
+    justify-content: flex-end;
+       
 }
 
-li {
+.flex-container {
     display: flex;
-    align-items: flex-end;   
-    padding: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 2px;
+    width: 30%;
+    margin: 0;
 }
+
+
+
+
+
+
 
 .card1{
 float: ;
