@@ -1,6 +1,10 @@
 
 
-
+.header {
+    background-color: #7CFC00;
+    text-align: start;
+    padding: 20px;
+}
 
 .card1{
 display: flex;
