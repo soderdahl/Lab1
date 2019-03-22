@@ -3,11 +3,27 @@
 .header {
     background-color: #7CFC00;
     text-align: start;
-    padding: 20px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none
+}
+
+.menubar {
+    background-color:#FF0000 ;
+    text-align: end;     
+    
+}
+
+li {
+    display: flex;
+    align-items: flex-end;   
+    padding: 8px;
 }
 
 .card1{
-display: flex;
+float: ;
 flex-direction: row;
 justify-content: space-around;
 
