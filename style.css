@@ -1,0 +1,34 @@
+
+
+
+
+.card1{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+
+.pic{
+    height: 20%;
+    width: 10%;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+}
+ 
+.contact  {
+    height: 25;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+  
