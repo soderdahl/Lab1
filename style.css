@@ -1,4 +1,6 @@
-
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 .header {
     background-color: #7CFC00;
@@ -26,39 +28,109 @@ ul {
     margin: 0;
 }
 
-
-
-
-
-
-
-.card1{
-float: ;
-flex-direction: row;
-justify-content: space-around;
-
+.main-sidinnehåll {
+    display: flex;
+    background-color: blue;
+    justify-content: flex-start;
 
 }
 
-.pic{
-    height: 20%;
-    width: 10%;
+.godissortiment {
+    display: flex;
+    flex: 3 1 auto;
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;    
+    
 }
 
-.container{
+.img {
+    flex-direction: row;
+    align-self: center;
+    max-width: 80%;
+}
 
+.img1 {
+    flex-direction: row;
+    align-self: center;
+    max-width: 100%;
+}
+
+.aside {
+    display: flex;
+    flex: 1 1 25%;
+    height: 200px;
+    background-color: palevioletred;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: olive;
+    height: 100px;
+}
+
+.footer-text {
+    color: blue;
+    text-align: center;
+    padding: 3px
+}
+
+
+
+@media screen and (max-width:600px){
+    .header {
+        text-align: end;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .main-sidinnehåll {
+    flex-direction: column;
+    }
+}
+
+@media screen and (min-width:600px){
+    .aside {
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+.contact-container {
     display: flex;
     flex-direction: row;
+    justify-content: center
 }
- 
-.contact  {
-    height: 25;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 20px;
+
+
+
+.pic {
+    float: left;
+
 }
+
+.contact.info {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
 
 
   
