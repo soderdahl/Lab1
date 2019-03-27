@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="utf-8">
-    <title>Godisbiten</title>
+    <meta charset="utf-8">       
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Godisbiten</title> 
 </head>
 
 <body>
-    <div class="header">
-        <h1>Logotype</h1>
-
-     </div>
-
-
+    <div class="header">    
+        <div class="header-text">   
+        <h2>Godisbiten.se</h2>
+        </div>
+    </div>
+     
 <nav>
+    <div class="menubar">
     <ul class="flex-container">
         <li class="flex-item-1">            
             <a href="index.html">Startsida</a>
@@ -23,43 +25,61 @@
             <a href="produkt.html">Sortiment</a>
         </li>
         <li class="flex-item-3">
-            <a href="contakt.html">Kontakta oss</a>
-        </li>
-        
+            <a href="kontakt.html">Kontakta oss</a>
+        </li>        
     </ul>
+</div>
 </nav>
 
-<main>
-        <div>            
-                <h1>Våra godissorter</h1>
-            <ul class="godissortiment">
-                <li class="choklad">
-                        <img src="choklad.jpg" alt="Choklad" style="width:15%">
+<main class="main-sidinnehåll">
+        
+        <div class="godissortiment">          
+                            
+                <div class="choklad">
+                        <img class="img" src="chocolate.jpg" alt="Choklad" width="247" height="220"/>
+
+                        <div class="produkt-info">
                         <h2>choklad</h2>                        
                         <p>text om choklad</p>
-                        <button><a href="produkt.html">välj</a></button>
-                </li>
-                <li class="lösviktgodis">
-                    <img src="lösviktgodis.jpg" alt="lösviktgodis" style="width:15%">
+                </div>
+                    <button><a href="produktChocolate.html">Välj</a></button>
+                </div>
+
+                <div class="lösviktgodis">
+                    <img class="img" src="lösviktgodis.jpg" alt="lösviktgodis" width="246" height="221"/>
+
+                    <div class="produkt-info">
                     <h2>lösviktgodis</h2>
                     <p>Smått & Gott</p>
-                    <button><a href="produkt.html">välj</a></button>
-                </li>
-                <li class="Naturgodis">
-                    <img src="naturgodis.jpg" alt="Naturgodis" style="width:15%">
+                </div>
+                    <button><a href="Lösvikt.html">Välj</a></button>
+                </div>
+
+                <div class="Naturgodis">
+                    <img class="img1" src="naturgodis1.jpg" alt="Naturgodis" width="170" height="210"/>
+
+                    <div class="produkt-info">
                     <h2>Naturgodis</h2>
                     <p>Gott & Nyttig</p>
-                    <button><a href="produkt.html">välj</a></button>
-                </li>
-            </ul>
+                </div>
+                    <button><a href="Naturgodis.html">Välj</a></button>
+                </div>            
                
-        </div>    
+        </div> 
+
+        <aside class="aside">
+
+        </aside>        
+        
         </main>
+       
 
         
         <footer>
-            <h3>Kontakta oss</h3>
+            <div class="footer-text">
+            <h4>Kontakta oss</h4>
             <p>info@godisbiten.se</p>
+        </div>
         </footer>
 
 
